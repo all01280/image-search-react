@@ -8,7 +8,7 @@ import "./styles/style.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/image-search-react">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />}></Route>
